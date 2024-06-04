@@ -1,0 +1,17 @@
+{
+  "name": "wdio8ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@wdio/allure-reporter": "^8.38.2",
+    "@wdio/cli": "^8.38.2",
+    "@wdio/jasmine-framework": "^8.38.2",
+    "@wdio/local-runner": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  }
+}
